@@ -1,0 +1,117 @@
+
+
+
+.main-navbar {
+    background-color: black;
+    color: white;
+    border-bottom: 4px solid #feda31;
+}
+.main-navbar a {
+    color: white;
+}
+.container-fluid {
+    background-color: black;
+    color: white;
+}
+.container-fluid .form-control {
+    background-color: black;
+    color: white;
+}
+.container-fluid::placeholder {
+    color: white;
+}
+.btn-primary {
+    
+    background: #feda31 !important;
+    border-radius: unset !important;
+    padding: 11px 46px !important;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    border: none;
+}
+.btn-primary:hover {
+    background: transparent !important;
+    border: 1px solid #feda31 !important;
+    border-radius: unset !important;
+    padding: 11px 46px !important;
+
+}
+.aboutusimage {
+position: relative;
+}
+.aboutusdata {
+    position: absolute;
+    right: 0;
+    background-color: #1e1e1e;
+}
+.aboutusdata h2 {
+    font-weight: 700;
+}
+.box {
+    height: 70px;
+    width: 70px;
+    /* border: 2px solid yellow; */
+    position: absolute;
+    opacity: 87;
+    border-top: 2px solid yellow;
+    border-left: 2px solid yellow;
+}
+.AboutUs,.Service p {
+    font-size: 14px;
+}
+.service h2 {
+    font-weight: 300;
+    display: flex;
+    font-size: 30px;
+    border-bottom: 2px solid yellow;
+}
+.serviceAsphalt {
+    padding: 20px;
+}
+/* .bg-image {
+    background: transparent url(/images/bg-1.jpg) no-repeat scroll 0 bottom/100% auto;
+
+} */
+.gapimage {
+
+}
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+.box1 {
+    height: 70px;
+    width: 70px;
+    /* border: 2px solid yellow; */
+    position: absolute;
+    opacity: 87;
+    border-top: 2px solid yellow;
+    border-right: 2px solid yellow;
+    right: 0;
+}
+.serviceAsphaltrecycled h2 {
+        font-weight: 300;
+        text-align: right;
+        font-size: 30px;
+        border-bottom: 2px solid yellow;
+    
+}
+.serviceAsphaltrecycled{
+    padding: 20px;
+}
+.servicegap {
+    margin-top: 25px;
+}
+
+.imagegap {
+    margin-top: 20px;
+}

@@ -8,6 +8,7 @@
 }
 .main-navbar a {
     color: white;
+    
 }
 .container-fluid {
     background-color: black;
@@ -16,15 +17,20 @@
 .container-fluid .form-control {
     background-color: black;
     color: white;
+    border-radius: 0px !important;
 }
 .container-fluid::placeholder {
     color: white;
+}
+form {
+    width: 50%;
+    text-align: right;
 }
 .btn-primary {
     
     background: #feda31 !important;
     border-radius: unset !important;
-    padding: 11px 46px !important;
+    padding: 6px 46px !important;
     color: rgb(0, 0, 0);
     font-size: larger;
     border: none;
@@ -33,16 +39,20 @@
     background: transparent !important;
     border: 1px solid #feda31 !important;
     border-radius: unset !important;
-    padding: 11px 46px !important;
+    padding: 6px 46px !important;
 
 }
 .aboutusimage {
-position: relative;
+/* position: relative; */
 }
 .aboutusdata {
-    position: absolute;
+    /* position: absolute; */
     right: 0;
     background-color: #1e1e1e;
+    padding: 50px;
+}
+.aboutdesign {
+    font-weight: 100;
 }
 .aboutusdata h2 {
     font-weight: 700;
@@ -114,4 +124,46 @@ position: relative;
 
 .imagegap {
     margin-top: 20px;
+}
+.navbar-nav {
+    margin-left: 7%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255)!important;
+  
+    line-height: 2px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #feda31!important;
+    border: 1px solid;
+    border-radius: 10px;
+    border-top: none;
+    border-bottom: none;
+    border-width: 3px;
+    border-radius: 14% / 10%;
+    height: 3px;
+}
+.line1 {
+    display: inherit;
+    padding: 0px 17%;
+}    
+.line {
+    border-left: 2px solid grey;
+}
+.fa-headphones {
+    color: #feda31;
+}
+.call {
+    text-align: initial;
+}
+
+.header {
+    text-align: justify;
+}
+.sideform {
+    background-color: #1f2021;
+}
+.sideform1 {
+    background-color: #1f2021;
 }

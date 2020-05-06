@@ -29,6 +29,9 @@
         padding: 11px 46px !important;
     
     }
+    .navbar-nav {
+        margin-left: none;
+    }
  }
 
 /* // Medium devices (tablets, 768px and up) */
